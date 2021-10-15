@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', san-senrif;
+    box-sizing: border-box;
+}
+body {
+	background: url(/projectHCI/css/img/Who_Can_Cant_Donate_Blood.png);
+}
+.head1 {
+    position: relative;
+    top: 100px;
+    left: 75px;
+    width: 500px;
+    
+}
+.head1 h1 {
+    color: #fff;
+}
+.head1 p {
+    font-size: 20px;
+}
+.nav-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    background-color: #8B0000;
+}
+.nav-brand {
+    color: #fff;
+	display:flex;
+    padding:0 1rem;
+    align-items: center;
+	justify-content: center;
+}
+.nav-main .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+}
+.nav-main .nav-menu {
+    margin: 10 auto 0;
+    padding: 0px;
+    list-style: none;
+    display: table;
+    width: 600px;
+    text-align: center;
+}
+.nav-main .nav-item {
+    display: table-cell;
+    position: relative;
+    padding: -15px 0;
+}
+.nav-main .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.nav-main .nav-links:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-main .nav-links:hover:after{
+    width: 100%;
+    left: 0;
+}
+.header {
+    top: -100px;
+    width: 30%;  
+    margin: 50px auto 0px;
+    border: 1px solid #b0c4de;
+    color: #fff;
+    background: #8b0000;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    position: relative;
+    text-align: center;
+    left: 30%;
+}
+form {
+    position: relative;
+    top: -100px;
+    left: 65%;
+    width: 30%;
+    padding: 20px;
+    opacity: 0.8;
+    border: 1px solid #b0c4de;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+.content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background: #5f9ea0;
+    border: none;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #5f9ea0ab;;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.footer-bottom {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+}

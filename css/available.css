@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', san-senrif;
+    box-sizing: border-box;
+}
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(img/blood-donation-background.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.nav-brand {
+    color: #fff;
+	display:flex;
+    padding:0 1rem;
+    align-items: center;
+	justify-content: center;
+}
+.nav-main {
+    background-color: #8B0000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: static;
+    top: 0;
+    z-index: 999;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+.nav-items {
+    height: 80px;
+}
+.nav-links {
+    color: #fff;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	padding:0 1rem;
+	height:100%;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-main ul li:hover{
+    background-color: #a52a2a;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+    color: #8b0000;
+}
+input {
+    color: #fff;
+    width: 10%;
+    height: 5%;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 10px 0px 15px 0px;
+    background-color: #8B0000;
+    box-shadow: 1px 1px 2px 1px grey;
+}
+input:hover{
+    opacity: 0.8;
+}
+select {
+    width: 40%;
+    height: 5%;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 10px 0px 15px 0px;
+    box-shadow: 1px 1px 2px 1px grey;
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  width: 50vw;
+}
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}

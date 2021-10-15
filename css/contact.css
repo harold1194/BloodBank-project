@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', san-senrif;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)), url(/projectHCI/css/img/bckg.jpg);
+}
+.nav-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    background-color: #8B0000;
+}
+.nav-brand {
+    color: #fff;
+	display:flex;
+    padding:0 1rem;
+    align-items: center;
+	justify-content: center;
+}
+.nav-main .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+}
+.nav-main .nav-menu {
+    margin: 10 auto 0;
+    padding: 0px;
+    list-style: none;
+    display: table;
+    width: 600px;
+    text-align: center;
+}
+.nav-main .nav-item {
+    display: table-cell;
+    position: relative;
+    padding: -15px 0;
+}
+.nav-main .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.nav-main .nav-links:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-main .nav-links:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 30px;
+}
+.contact-title h2 {
+    font-size: 10px;
+}
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input {
+    height: 45px;
+}
+form .submit {
+    background: #8b0000;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover {
+    background-color: #e72c2cfa;
+    cursor: pointer;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.msg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
